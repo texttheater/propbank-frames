@@ -38,9 +38,9 @@
       <example name="Transitive" src="">
         <text>Mary spent the day neatening the kitchen shelves .</text>
         <propbank>
-          <rel relloc="4">neatening</rel>
-          <arg type="ARG0" start="0" end="0">Mary</arg>
-          <arg type="ARG1" start="5" end="7">the kitchen shelves</arg>
+          <rel relloc="4" sf="STATE-CHANGE">neatening</rel>
+          <arg type="ARG0" start="0" end="0" sf="x-causer">Mary</arg>
+          <arg type="ARG1" start="5" end="7" sf="has-state">the kitchen shelves</arg>
         </propbank>
       </example>
       <note>NEATEN-V NOTES: (from neaten.01-v)</note>
@@ -68,10 +68,10 @@
       <example name="With extent" src="">
         <text>However , in real updates , you probably ca n't tell , but I 've neatened up further rough edges of the site .</text>
         <propbank>
-          <rel relloc="15 16">neatened up</rel>
-          <arg type="ARG0" start="13" end="14">I 've</arg>
-          <arg type="ARGM-EXT" start="17" end="17">further</arg>
-          <arg type="ARG1" start="18" end="22">rough edges of the site</arg>
+          <rel relloc="15 16" sf="STATE-CHANGE">neatened up</rel>
+          <arg type="ARG0" start="13" end="14" sf="x-causer">I 've</arg>
+          <arg type="ARGM-EXT" start="17" end="17" sf="m-quantity">further</arg>
+          <arg type="ARG1" start="18" end="22" sf="has-state">rough edges of the site</arg>
         </propbank>
       </example>
       <note>NEATEN_UP-V NOTES: Frame by Claire (from neaten.02-v)</note>

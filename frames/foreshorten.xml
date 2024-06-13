@@ -26,9 +26,9 @@
       <example name="Use arg 2 if start and end are not seperate and are not specifically the start and end points." src="">
         <text>with a foreshortening of the the image by the same proportion</text>
         <propbank>
-          <rel relloc="2">foreshortening</rel>
-          <arg type="ARG1" start="3" end="6">of the the image</arg>
-          <arg type="ARG2" start="7" end="10">by the same proportion</arg>
+          <rel relloc="2" sf="STATE-CHANGE">foreshortening</rel>
+          <arg type="ARG1" start="3" end="6" sf="has-state">of the the image</arg>
+          <arg type="ARG2" start="7" end="10" sf="x-quantity">by the same proportion</arg>
         </propbank>
       </example>
       <note>Based on cryo data. Comparison with reduce.01 and shorten.04 No VN or

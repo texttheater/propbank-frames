@@ -35,9 +35,9 @@
       <example name="Talk" src="web usage">
         <text>This was right after he yakked about giving small businesses tax incentives to hire .</text>
         <propbank>
-          <rel relloc="5">yakked</rel>
-          <arg type="ARG0" start="4" end="4">he</arg>
-          <arg type="ARG1" start="6" end="13">about giving small businesses tax incentives to hire</arg>
+          <rel relloc="5" sf="MESSAGE-INIT">yakked</rel>
+          <arg type="ARG0" start="4" end="4" sf="x-sender">he</arg>
+          <arg type="ARG1" start="6" end="13" sf="topic">about giving small businesses tax incentives to hire</arg>
         </propbank>
       </example>
       <note>YAK-V NOTES: Automatically created based on framefiles: gossip (37.6), added by Kev (from yak.01-v)</note>
@@ -67,9 +67,9 @@
       <example name="Vomit" src="web usage">
         <text>This backs up the suspicion / rumor that he yakked during the Super Bowl .</text>
         <propbank>
-          <rel relloc="9">yakked</rel>
-          <arg type="ARG0" start="8" end="8">he</arg>
-          <arg type="ARGM-TMP" start="10" end="13">during the Super Bowl</arg>
+          <rel relloc="9" sf="MESSAGE-INIT">yakked</rel>
+          <arg type="ARG0" start="8" end="8" sf="x-sender">he</arg>
+          <arg type="ARGM-TMP" start="10" end="13" sf="m-time">during the Super Bowl</arg>
         </propbank>
       </example>
       <note>YAK-V NOTES: No VNcls. Updated by Julia, 9/2010. (from yak.02-v)</note>

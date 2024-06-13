@@ -52,16 +52,16 @@
       <example name="arg1" src="">
         <text>Three years ago , the exchange took up residence in a space - age tower of steel and glass -- evocative of the kind of modern architecture that Britain 's Prince Charles has denounced .</text>
         <propbank>
-          <rel relloc="8">residence</rel>
-          <arg type="ARG1" start="9" end="33">in a space - age tower of steel and glass -- evocative of the kind of modern architecture that Britain 's Prince Charles has denounced</arg>
+          <rel relloc="8" sf="LOCATION">residence</rel>
+          <arg type="ARG1" start="9" end="33" sf="location">in a space - age tower of steel and glass -- evocative of the kind of modern architecture that Britain 's Prince Charles has denounced</arg>
         </propbank>
       </example>
       <example name="both args" src="">
         <text>During the time of his residence in Mourhead , Michael Higgins was united in marriage to Agnes Peterson ,</text>
         <propbank>
-          <rel relloc="5">residence</rel>
-          <arg type="ARG0" start="4" end="4">his</arg>
-          <arg type="ARG1" start="6" end="7">in Mourhead</arg>
+          <rel relloc="5" sf="LOCATION">residence</rel>
+          <arg type="ARG0" start="4" end="4" sf="has-location">his</arg>
+          <arg type="ARG1" start="6" end="7" sf="location">in Mourhead</arg>
         </propbank>
       </example>
       <note>RESIDE-V NOTES: Member of VN classes exist-47.1-1 and lodge-46. (from reside.01-v)</note>
